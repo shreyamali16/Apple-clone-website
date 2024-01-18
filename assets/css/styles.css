@@ -15,6 +15,7 @@
 .product {
   padding-top: 100px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .product h2 {
@@ -41,6 +42,71 @@
 }
 
 .product.Macbook-pro {
-  background-color: rgba(0,0,0,0.92);
+  background-color: #131218;
+}
+
+.product.ipad {
+  background-color: #f5f5f5;
+}
+
+.product-small {
+  height: 550px;
+  padding-top: 40px;
+  margin: 0 0 10px 10px;
+  text-align: center;
+}
+
+.product-small h4 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.product-small h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+a {
+}
+
+.learn-more {
+  margin-right: 20px;
+}
+
+.product-small {
+}
+
+h3 {
+}
+
+div {
+}
+
+.behind-the-Mac {
+}
+
+.behind-the-mac {
+}
+
+.product-small.behind-the-mac {
+  padding-top: 420px;
+}
+
+.product-small h5 {
+  font-weight: bold;
+}
+
+.behind-the-mac {
+}
+
+.behind-the-mac {
+}
+
+.airpods {
+  background-color: #fafafa;
+}
+
+.watch {
+  background-color: #eeeeee;
 }
 
