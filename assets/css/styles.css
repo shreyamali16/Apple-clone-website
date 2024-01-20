@@ -16,21 +16,52 @@
   padding-top: 100px;
   text-align: center;
   margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 300px) {
+  .product {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .product h2 {
-  font-size: 27px;
+  font-size: 10px;
   font-weight: 400;
 }
 
+@media (min-width: 300px) {
+  .product h2 {
+    font-size: 27px;
+    font-weight: 400;
+  }
+}
+
 .product h1 {
-  font-size: 56px;
+  font-size: 32px;
   font-weight: bold;
+}
+
+@media (min-width: 300px) {
+  .product h1 {
+    font-size: 56px;
+    font-weight: bold;
+  }
 }
 
 .product .links {
   font-size: 21px;
-  margin-bottom: 81px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 300px) {
+  .product .links {
+    font-size: 21px;
+    margin-bottom: 81px;
+  }
 }
 
 .product .links .learn-more {
@@ -45,6 +76,13 @@
   background-color: #131218;
 }
 
+@media (min-width: 300px) {
+  .product.Macbook-pro {
+    background-color: #131218;
+    padding-bottom: 0px;
+  }
+}
+
 .product.ipad {
   background-color: #f5f5f5;
 }
@@ -54,6 +92,14 @@
   padding-top: 40px;
   margin: 0 0 10px 10px;
   text-align: center;
+}
+
+@media (min-width: 300px) {
+  .product-small {
+    margin: 0 0 10px 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 
 .product-small h4 {
@@ -108,5 +154,23 @@ div {
 
 .watch {
   background-color: #eeeeee;
+}
+
+.row {
+}
+
+.products-grid {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+@media (min-width: 300px) {
+  .products-grid {
+    padding-right: 0px;
+  }
+}
+
+.turnup {
+  padding-right: 10px;
 }
 
